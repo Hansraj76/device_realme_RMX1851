@@ -180,7 +180,7 @@ vendor.perf.framepacing.enable=1
 persist.vendor.radio.enableadvancedscan=false
 
 # SoC
-ro.soc.manufacturer=Qualcomm
+ro.soc.manufacturer=QTI
 ro.soc.model=SDM710
 
 # Surfaceflinger properties
