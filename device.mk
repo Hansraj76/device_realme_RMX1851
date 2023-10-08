@@ -192,6 +192,7 @@ PRODUCT_COPY_FILES += \
 # Init scripts
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    init.logcat.rc \
     init.msm.usb.configfs.rc \
     init.oppo.fingerprints.rc \
     init.oppo.rc \
