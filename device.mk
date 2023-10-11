@@ -113,7 +113,9 @@ PRODUCT_PACKAGES += \
 # Apex libraries
 PRODUCT_COPY_FILES += \
     prebuilts/runtime/mainline/i18n/sdk/android/arm/lib/libandroidicu.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libandroidicu.so \
-    prebuilts/runtime/mainline/i18n/sdk/android/arm64/lib/libandroidicu.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libandroidicu.so
+    prebuilts/runtime/mainline/i18n/sdk/android/arm64/lib/libandroidicu.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libandroidicu.so \
+    prebuilts/runtime/mainline/i18n/sdk/android/arm/lib/libicu.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libicu.so \
+    prebuilts/runtime/mainline/i18n/sdk/android/arm64/lib/libicu.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libicu.so
 
 # Audio
 PRODUCT_PACKAGES += \
