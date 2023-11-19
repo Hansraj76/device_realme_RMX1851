@@ -7,17 +7,17 @@
 $(call inherit-product, device/realme/RMX1851/device.mk)
 
 # Inherit some common voltageOS stuff.
-$(call inherit-product, vendor/voltage/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := voltage_RMX1851
+PRODUCT_NAME := derp_RMX1851
 PRODUCT_DEVICE := RMX1851
 PRODUCT_BRAND := Realme
 PRODUCT_MODEL := Realme 3 Pro
 PRODUCT_MANUFACTURER := Realme
 
 # disable/enable blur support, default is false
-TARGET_ENABLE_BLUR := true
+#TARGET_ENABLE_BLUR := true
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -37,4 +37,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
 # VoltageOS
-VOLTAGE_BUILD_TYPE := OFFICIAL
+#VOLTAGE_BUILD_TYPE := OFFICIAL
