@@ -18,7 +18,7 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/realme/RMX1971',
+    'device/realme/RMX1851',
     'hardware/qcom-caf/sdm845',
     'hardware/qcom-caf/wlan',
     'vendor/qcom/opensource/commonsys-intf/display',
@@ -99,7 +99,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'RMX1971',
+    'RMX1851',
     'realme',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,

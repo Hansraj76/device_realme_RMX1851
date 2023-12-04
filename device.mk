@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Realme 5 Pro is a product launched with pie
+# Realme 3 Pro is a product launched with pie
 $(call inherit-product, build/make/target/product/product_launched_with_p.mk)
 
 # Inherit from those products. Most specific first.
@@ -13,7 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
 # Get non-open-source specific aspects
-$(call inherit-product, vendor/realme/RMX1971/RMX1971-vendor.mk)
+$(call inherit-product, vendor/realme/RMX1851/RMX1851-vendor.mk)
 
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
@@ -139,7 +139,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.RMX1971
+    android.hardware.biometrics.fingerprint@2.1-service.RMX1851
 
 # FM
 PRODUCT_PACKAGES += \
@@ -370,7 +370,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
-    android.hardware.sensors@2.0-service.multihal.RMX1971
+    android.hardware.sensors@2.0-service.multihal.RMX1851
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \

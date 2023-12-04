@@ -97,7 +97,7 @@ bluetooth.profile.pan.nap.enabled?=true
 bluetooth.profile.pan.panu.enabled?=true
 bluetooth.profile.pbap.server.enabled?=true
 bluetooth.profile.sap.server.enabled?=true
-bluetooth.device.default_name=realme 5 Pro
+bluetooth.device.default_name=realme 3 Pro
 persist.vendor.qcom.bluetooth.soc=cherokee
 vendor.qcom.bluetooth.soc=cherokee
 persist.vendor.bt.aac_frm_ctl.enabled=true
@@ -205,7 +205,7 @@ debug.sf.early_gl_app_phase_offset_ns=15000000
 persist.sys.binary_xml=false
 
 # USB
-vendor.usb.product_string=realme 5 Pro
+vendor.usb.product_string=realme 3 Pro
 ro.usb.uvc.disable_video_encode_flag=true
 ro.usb.uvc.enabled=true
 sys.usb.mtp.batchcancel=1
