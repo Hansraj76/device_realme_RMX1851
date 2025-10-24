@@ -1143,10 +1143,8 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
 # Touchpanel Firmware
 odm/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM.img
+odm/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM_FAE.img
 odm/firmware/tp/18621/FW_OPPO_TP_NOFLASH_DSJM_TEST.img
-odm/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM.img
-odm/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM_FAE.img
-odm/firmware/tp/19691/FW_OPPO_TP_NOFLASH_DSJM_TEST.img
 
 # Thermal
 vendor/bin/thermal-engine
