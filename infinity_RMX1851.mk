@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common LineageOS stuff
+# Inherit some common Infinity stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_ENABLE_BLUR :=false
 INFINITY_MAINTAINER := Sourabh
