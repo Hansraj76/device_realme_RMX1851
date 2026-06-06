@@ -272,9 +272,6 @@ vendor/lib64/camera/components/com.vidhance.node.eis.so
 vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so
 
 # Camera (Sensors)
-vendor/lib/camera/com.qti.sensor.gc2375h.so
-vendor/lib/camera/com.qti.sensor.gc5035.so
-vendor/lib/camera/com.qti.sensor.hi846.so
 vendor/lib64/camera/com.qti.sensor.gc2375h.so
 vendor/lib64/camera/com.qti.sensor.gc5035.so
 vendor/lib64/camera/com.qti.sensor.hi846.so
