@@ -173,7 +173,7 @@ SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/sdm845/display
 SRC_MEDIA_HAL_DIR := hardware/qcom-caf/sdm845/media
 
 # Init
-$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_RMX1971)
+$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_RMX1851)
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -192,6 +192,10 @@ PRODUCT_PACKAGES += \
 
 $(call soong_config_set,lineage_health,charging_control_charging_path,/sys/class/power_supply/battery/mmi_charging_enable)
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.1-impl \
+    android.hardware.health@2.1-impl.recovery
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay-service.sdm
@@ -355,7 +359,7 @@ PRODUCT_COPY_FILES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    libinit_RMX1971.recovery
+    libinit_RMX1851.recovery
 
 # Seccomp policy
 PRODUCT_COPY_FILES += \
