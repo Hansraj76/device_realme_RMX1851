@@ -29,6 +29,7 @@ ro.vendor.audio.sdk.ssr=false
 vendor.audio.offload.gapless.enabled=true
 vendor.audio.safx.pbe.enabled=false
 vendor.audio.parser.ip.buffer.size=262144
+vendor.audio.flac.sw.decoder.24bit=true
 vendor.audio.hal.boot.timeout.ms=20000
 vendor.audio.use.sw.alac.decoder=true
 vendor.audio.use.sw.ape.decoder=true
@@ -205,7 +206,7 @@ debug.sf.early_gl_app_phase_offset_ns=15000000
 persist.sys.binary_xml=false
 
 # USB
-vendor.usb.product_string=realme 3 Pro
+vendor.usb.product_string=Realme 3 Pro
 ro.usb.uvc.disable_video_encode_flag=true
 ro.usb.uvc.enabled=true
 sys.usb.mtp.batchcancel=1
