@@ -537,7 +537,7 @@ vendor/bin/loc_launcher|c9a2f764201ee679c29463f405abd9625c421afc
 vendor/bin/lowi-server|acbe58833160c246b211065169752404f64c08ec
 vendor/bin/mlid|d869b298fad44df834567dab3c0ab6bb78996e28
 vendor/bin/xtra-daemon|f9e77c629c9de5a188b773188ae96c9a595d7360
-vendor/bin/xtwifi-client|86d1b65370ec8d6bb44f126005b13bed02459543
+vendor/bin/xtwifi-client|442e0c8166eea0a0d6cfd9432f945faa59c34d80
 vendor/bin/xtwifi-inet-agent|f805841e5c8ca3b0af620486a64a37148daa0980
 vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc|d3844699c845ce5de4c8b50548a2095f92dd0235
 vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml|1c344aacaa6d17a1585ba58b2e6d438dcfe31fad
