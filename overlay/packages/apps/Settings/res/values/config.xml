@@ -43,4 +43,6 @@
     <!-- Show battery information -->
     <bool name="config_show_battery_info" translatable="false">false</bool>
 
+    <string name="build_maintainer_summary">Sourabh</string>
+
 </resources>
