@@ -101,8 +101,6 @@
     <hidden-api-whitelisted-app package="com.qti.vtloopback " />
     <hidden-api-whitelisted-app package="com.android.bluetooth" />
     <hidden-api-whitelisted-app package="org.codeaurora.bluetooth" />
-    <hidden-api-whitelisted-app package="com.qualcomm.wfd.client" />
-    <hidden-api-whitelisted-app package="com.qualcomm.wfd.service" />
     <hidden-api-whitelisted-app package="com.qti.service.colorservice" />
     <allow-implicit-broadcast action="org.codeaurora.intent.action.PRE_ALERTING_CALL_INFO" />
 </config>
