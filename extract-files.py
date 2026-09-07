@@ -54,6 +54,8 @@ lib_fixups: lib_fixups_user_type = {
 blob_fixups: blob_fixups_user_type = {
     'system_ext/bin/wfdservice': blob_fixup()
         .add_needed('libwfdservice_shim.so'),
+    'system_ext/lib64/libwfdcommonutils.so': blob_fixup()
+        .remove_needed('libheif.so'),
     ('odm/lib64/mediadrm/libwvdrmengine.so', 'odm/lib64/libwvhidl.so'): blob_fixup()
         .add_needed('libcrypto_shim.so'),
     ('vendor/lib/hw/android.hardware.health@2.0-impl-2.1-qti.so', 'vendor/lib64/hw/android.hardware.health@2.0-impl-2.1-qti.so'): blob_fixup()
